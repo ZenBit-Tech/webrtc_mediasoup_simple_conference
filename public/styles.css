@@ -1,0 +1,57 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #eef0f8;
+}
+
+.owner__video__wrapper {
+  position: fixed;
+  bottom: 15px;
+  left: 15px;
+  width: 300px;
+  height: 300px;
+  box-shadow: 0 0 30px 0 rgb(82 63 105 / 2%);
+  border-radius: 8px;
+  background-color: #ffffff;
+  border: 2px solid #dedede;
+  overflow: hidden;
+}
+
+.owner__video__wrapper video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background: url("https://images.squarespace-cdn.com/content/v1/59649517e110eb4540b1dfe6/1579624257635-YPO7RVCDIDYF6GU1LQ53/no+signal.gif?format=400w")
+    no-repeat center center;
+}
+
+.clients__wrapper {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.clients__wrapper .client__wrapper {
+  width: calc(33.33% - 30px);
+  height: calc(33.33% - 30px);
+  box-shadow: 0 0 30px 0 rgb(82 63 105 / 2%);
+  border-radius: 8px;
+  background-color: #ffffff;
+  border: 2px solid #dedede;
+  overflow: hidden;
+  margin: 10px 10px;
+}
+
+.clients__wrapper .client__wrapper video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background: url("https://images.squarespace-cdn.com/content/v1/59649517e110eb4540b1dfe6/1579624257635-YPO7RVCDIDYF6GU1LQ53/no+signal.gif?format=1000w")
+    no-repeat center center;
+}
